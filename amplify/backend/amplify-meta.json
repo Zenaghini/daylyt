@@ -1,0 +1,52 @@
+{
+  "providers": {
+    "awscloudformation": {
+      "AuthRoleName": "amplify-bestmotoring-dev-24120-authRole",
+      "UnauthRoleArn": "arn:aws:iam::957874166027:role/amplify-bestmotoring-dev-24120-unauthRole",
+      "AuthRoleArn": "arn:aws:iam::957874166027:role/amplify-bestmotoring-dev-24120-authRole",
+      "Region": "ap-southeast-2",
+      "DeploymentBucketName": "amplify-bestmotoring-dev-24120-deployment",
+      "UnauthRoleName": "amplify-bestmotoring-dev-24120-unauthRole",
+      "StackName": "amplify-bestmotoring-dev-24120",
+      "StackId": "arn:aws:cloudformation:ap-southeast-2:957874166027:stack/amplify-bestmotoring-dev-24120/40df7b80-06b4-11eb-93f0-0ae27dbfd860",
+      "AmplifyAppId": "d3mlgw6ax3jns4"
+    }
+  },
+  "auth": {
+    "bestmotoring0906e915": {
+      "service": "Cognito",
+      "providerPlugin": "awscloudformation",
+      "dependsOn": [],
+      "customAuth": false,
+      "providerMetadata": {
+        "s3TemplateURL": "https://s3.amazonaws.com/amplify-bestmotoring-dev-24120-deployment/amplify-cfn-templates/auth/bestmotoring0906e915-cloudformation-template.yml",
+        "logicalId": "authbestmotoring0906e915"
+      },
+      "lastPushTimeStamp": "2020-10-05T03:19:22.751Z",
+      "output": {
+        "AppClientSecret": "1doaf6k3eg6v0p835m4u659k10ccdjfutd21liaspj2flni2cb0k",
+        "UserPoolId": "ap-southeast-2_McxKD52bV",
+        "AppClientIDWeb": "6f24v0ne773d68ubqfda6s260v",
+        "AppClientID": "53fcimb7o2rmanf1g9vff79tng",
+        "IdentityPoolId": "ap-southeast-2:9bdb7ea1-d312-461f-b71c-f673fd9883f3",
+        "IdentityPoolName": "bestmotoring0906e915_identitypool_0906e915__dev",
+        "UserPoolName": "bestmotoring0906e915_userpool_0906e915"
+      },
+      "lastPushDirHash": "JTfNZOPnn6RcWMNc8y4SiM6oqZQ="
+    }
+  },
+  "hosting": {
+    "amplifyhosting": {
+      "service": "amplifyhosting",
+      "providerPlugin": "awscloudformation",
+      "type": "manual",
+      "providerMetadata": {
+        "s3TemplateURL": "https://s3.amazonaws.com/amplify-bestmotoring-dev-24120-deployment/amplify-cfn-templates/hosting/amplifyhosting-template.json",
+        "logicalId": "hostingamplifyhosting"
+      },
+      "lastPushTimeStamp": "2020-10-05T03:19:22.751Z",
+      "output": {},
+      "lastPushDirHash": "/+VZ33seFFqAr6wbtptwbINUfSA="
+    }
+  }
+}
