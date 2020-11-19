@@ -1,0 +1,10 @@
+{
+  "auth": {
+    "daylyt7128b04f": {
+      "service": "Cognito",
+      "providerPlugin": "awscloudformation",
+      "dependsOn": [],
+      "customAuth": false
+    }
+  }
+}
